@@ -5,3 +5,12 @@
   background-color: rgba(30, 30, 30, 0.45);
   border-bottom: none;
 }
+.carousel-inner img {
+  width: 100%;
+  height: calc(100% - 56px);
+}
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
