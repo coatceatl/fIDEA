@@ -6,8 +6,8 @@
   border-bottom: none;
 }
 .carousel-inner img {
+  display: block;
   width: 100%;
-  height: calc(100% - 56px);
 }
 .carousel-caption {
   position: absolute;

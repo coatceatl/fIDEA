@@ -1,1 +1,6 @@
-console.log('webpack: js+css');
+import 'bootstrap';
+import $ from 'jquery';
+
+$('.carousel').carousel({
+  interval: 2000
+});
