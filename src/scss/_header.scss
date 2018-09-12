@@ -12,6 +12,12 @@
   font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
+  &:hover,
+  &:active,
+  &:focus {
+    color: #ffa502 !important;
+    outline: none;
+  }
 }
 .navbar-brand {
   color: #fff !important;
@@ -19,6 +25,9 @@
   font-weight: 800;
   letter-spacing: 1.3px;
   font-size: 24px !important;
+}
+.yellow {
+  color: #ffa502;
 }
 .content-wrapper {
   overflow: hidden;
@@ -54,6 +63,12 @@
   transform: translateY(-50%);
   opacity: 1;
   z-index: 10;
+  & .btn-theme {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 12px 24px;
+    text-transform: uppercase;
+  }
 }
 .display-3 {
   font-family: 'Oswald', sans-serif;
@@ -72,5 +87,11 @@
   top: 0;
   left: 0;
   right: 0;
+}
+.nav-link.active {
+  color: #ffa502 !important;
+}
+.carousel-indicators .active {
+  background-color: #ffa502 !important;
 }
 
