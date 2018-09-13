@@ -99,6 +99,52 @@
 .carousel-indicators .active {
   background-color: #ffa502 !important; }
 
+.about {
+  padding-bottom: 80px; }
+
+.section-header {
+  margin-bottom: 60px; }
+
+.section-title {
+  color: #222;
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 10px; }
+
+.section-subtitle {
+  color: #222;
+  font-size: 40px;
+  font-weight: 400;
+  text-transform: uppercase; }
+  .section-subtitle:after {
+    display: block;
+    content: '';
+    width: 240px;
+    height: 2px;
+    position: relative;
+    margin: 15px auto;
+    background-color: #ffa502; }
+
+.nav-tabs {
+  border: none !important; }
+
+.nav-tabs .nav-link {
+  border: 1px solid transparent !important; }
+
+.nav-tabs > li:first-child {
+  border-right: 1px solid #999; }
+
+.tabs-link {
+  color: #222 !important;
+  font-size: 22px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 0;
+  border: none; }
+
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
