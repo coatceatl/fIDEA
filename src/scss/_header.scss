@@ -1,5 +1,4 @@
 .header {
-  //background: url(../img/slider1.jpg) center center/cover no-repeat;
   z-index: 100;
   position: relative;
 }
@@ -83,7 +82,7 @@
   margin-bottom: 15px;
   letter-spacing: 1px;
 
-  @media(max-width: 375px) {
+  @media(max-width: 480px) {
     font-size: 2.5rem !important;
   }
 }

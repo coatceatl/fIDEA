@@ -9,6 +9,10 @@
   .btn-theme:hover {
     color: #fff; }
 
+.img-responsive {
+  width: 100%;
+  height: auto; }
+
 .header {
   z-index: 100;
   position: relative; }
@@ -87,7 +91,7 @@
   text-transform: uppercase;
   margin-bottom: 15px;
   letter-spacing: 1px; }
-  @media (max-width: 375px) {
+  @media (max-width: 480px) {
     .display-3 {
       font-size: 2.5rem !important; } }
 
@@ -134,7 +138,7 @@
     position: relative;
     margin: 15px auto;
     background-color: #ffa502; }
-  @media (max-width: 375px) {
+  @media (max-width: 480px) {
     .section-subtitle {
       font-size: 32px; } }
 
@@ -155,9 +159,13 @@
   text-transform: uppercase;
   padding: 0;
   border: none; }
-  @media (max-width: 375px) {
+  @media (max-width: 480px) {
     .tabs-link {
       font-size: 18px; } }
+
+.btn-aboute {
+  margin-bottom: 20px;
+  margin-right: 10px; }
 
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
