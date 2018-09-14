@@ -17,7 +17,13 @@
   letter-spacing: 1px;
   text-transform: uppercase;
   margin-bottom: 10px;
-  background: none;
+  
+  &:hover,
+  &:focus,
+  &:active {
+    outline: none;
+    box-shadow: 0 !important;
+  }
 }
 .section-subtitle {
   color: #222;

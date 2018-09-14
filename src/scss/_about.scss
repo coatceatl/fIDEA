@@ -51,4 +51,26 @@
     border-bottom: 1px solid #ccc;
   }
 }
+.btn.btn-title {
+  display: block;
+  color: #222;
+  padding: 12px 0;
+  background: none;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  &:hover,
+  &:active,
+  &:focus {
+    color: #ffa502 !important;
+    outline: none;
+    box-shadow: none !important;
+  }
+  & i {
+    color: #ffc400;
+    font-size: 28px;
+    margin-right: 10px;
+  }
+}
 
