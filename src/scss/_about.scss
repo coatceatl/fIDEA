@@ -4,33 +4,6 @@
 .section-header {
   margin-bottom: 60px;
 }
-.section-title {
-  color: #222;
-  font-size: 24px;
-  font-weight: 300;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-}
-.section-subtitle {
-  color: #222;
-  font-size: 40px;
-  font-weight: 400;
-  text-transform: uppercase;
-  &:after {
-    display: block;
-    content: '';
-    width: 240px;
-    height: 2px;
-    position: relative;
-    margin: 15px auto;
-    background-color: #ffa502;
-  }
-
-  @media(max-width: 480px) {
-    font-size: 32px;
-  }
-}
 .nav-tabs {
   border: none !important;
 }
@@ -65,3 +38,17 @@
   padding-top: 80px;
   padding-bottom: 80px;
 }
+.card.accordion {
+  margin-bottom: 10px;
+  background: none;
+  border: none;
+}
+.card-header {
+  padding: 0;
+  background: none !important;
+  border: 0 !important;
+  & .title {
+    border-bottom: 1px solid #ccc;
+  }
+}
+

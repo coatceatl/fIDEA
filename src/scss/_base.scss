@@ -10,6 +10,34 @@
     color: #fff;
   }
 }
+.section-title {
+  color: #222;
+  font-size: 24px !important;
+  font-weight: 300 !important;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  background: none;
+}
+.section-subtitle {
+  color: #222;
+  font-size: 40px;
+  font-weight: 400;
+  text-transform: uppercase;
+  &:after {
+    display: block;
+    content: '';
+    width: 240px;
+    height: 2px;
+    position: relative;
+    margin: 15px auto;
+    background-color: #ffa502;
+  }
+
+  @media(max-width: 480px) {
+    font-size: 32px;
+  }
+}
 .img-responsive {
   width: 100%;
   height: auto;
