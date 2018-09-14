@@ -37,10 +37,6 @@
     .section-subtitle {
       font-size: 32px; } }
 
-.img-responsive {
-  width: 100%;
-  height: auto; }
-
 .header {
   z-index: 100;
   position: relative; }
