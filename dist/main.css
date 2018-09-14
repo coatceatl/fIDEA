@@ -37,6 +37,9 @@
     .section-subtitle {
       font-size: 32px; } }
 
+.white {
+  color: #fff; }
+
 .header {
   z-index: 100;
   position: relative; }
@@ -199,9 +202,19 @@
     outline: none;
     box-shadow: none !important; }
   .btn.btn-title i {
-    color: #ffc400;
+    color: #ffa502;
     font-size: 28px;
     margin-right: 10px; }
+
+.skills {
+  background-image: url(img/skills.jpg);
+  background-attachment: fixed !important;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  color: #fff; }
 
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
