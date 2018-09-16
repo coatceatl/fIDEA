@@ -250,6 +250,13 @@
   .services-buttons a {
     margin-right: 20px; }
 
+.features {
+  background-image: url(img/features.jpg);
+  background-attachment: fixed !important;
+  background-repeat: repeat;
+  background-position: 50% 44px;
+  color: #fff; }
+
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
