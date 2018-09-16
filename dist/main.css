@@ -239,6 +239,12 @@
   margin-top: 25px;
   margin-bottom: 10px; }
 
+.service-box {
+  margin-bottom: 20px;
+  margin-top: 30px; }
+  .service-box i {
+    margin-right: 10px; }
+
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
