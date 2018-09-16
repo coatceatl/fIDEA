@@ -257,6 +257,27 @@
   background-position: 50% 44px;
   color: #fff; }
 
+.features-box {
+  margin-bottom: 40px; }
+
+.features-icon {
+  font-size: 60px;
+  margin-right: 30px; }
+  .features-icon i {
+    color: #ffa502; }
+
+.features-text p {
+  color: #ddd;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+  padding-right: 20px; }
+
+.feature-header {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Oswald', sans-serif; }
+
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
