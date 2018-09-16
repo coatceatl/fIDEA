@@ -1,3 +1,7 @@
+.section-padding {
+  padding-top: 80px;
+  padding-bottom: 80px; }
+
 .btn-theme {
   background-color: #ffa502;
   color: #333;
@@ -210,10 +214,8 @@
   background-image: url(img/skills.jpg);
   background-attachment: fixed !important;
   background-repeat: no-repeat;
-  background-position: bottom center;
+  background-position: 50% 47px;
   background-size: cover;
-  padding-top: 80px;
-  padding-bottom: 80px;
   color: #fff; }
 
 .block-skills {
